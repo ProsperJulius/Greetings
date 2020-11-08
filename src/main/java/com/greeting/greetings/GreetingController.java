@@ -9,4 +9,8 @@ public class GreetingController {
     private String getGreetings(){
         return "Hi, How are you?";
     }
+    @GetMapping("/")
+    private String home(){
+        return "Welcome home";
+    }
 }
